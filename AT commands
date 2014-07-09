@@ -1,0 +1,19 @@
+Here are a few basic AT commands
+
+AT+CREG?
+  Checks cellular network registration options
+  Can return +CREG 0, 1
+  
+AT+CSMS=1;
+  Command to being sending SMS message
+  Followed by input of cellular number
+  Then message followed by the end command
+  
+ATD<CELL NUMBER>;
+  Voice call initiation
+
+ATD<NUMBER> 
+  Data call initiation
+  
+ATH
+  Terminate call
