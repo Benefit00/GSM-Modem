@@ -1,0 +1,14 @@
+Very basic requirements of what program should be able to do
+
+From modem side:
+  Obtain network signal
+  
+Program side:
+  Function to check and switch to another sim should credit balance be depleated on call
+  Ability to send and receive SMS and or MMS messages
+  Ability to make and receive phone calls
+    Normal landline numbers
+    Normal cellular numbers
+    International calling
+    USSD calling
+  Simultaneously interact with each port should a call be incoming on any number allocated to the modem.
